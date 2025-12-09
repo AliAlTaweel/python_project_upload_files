@@ -81,7 +81,20 @@ uv run ./main.py
 [http://localhost:8000/docs]            to display all available roots  <br>
 [http://localhost:8000/redoc]           same but newer <br>
 
+Environment Variables
+Create a file named .env in the project root to store your secrets and configuration. You will need keys for ImageKit and a secret for your JWTs.
 
+# Example .env file content
+# ImageKit Credentials (Get these from your ImageKit dashboard)
+IMAGEKIT_PUBLIC_KEY="your_public_key"
+IMAGEKIT_PRIVATE_KEY="your_private_key"
+IMAGEKIT_URL_ENDPOINT="your_url_endpoint"
+
+# Secret Key for Authentication (Generate a long, random string)
+SECRET_KEY="a_very_secret_and_long_jwt_secret"
+
+# Database path (for aiosqlite, will be created if it doesn't exist)
+DATABASE_URL="sqlite+aiosqlite:///./sql_app.db"
 # Usage
 [(Back to top)](#table-of-contents)
 
