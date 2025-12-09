@@ -69,13 +69,34 @@ When start new python project :
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```
-Then restart the terminal to see uv version
+Then restart the terminal, and check uv version
 
 ```shell
-Uv —version
+uv —version
+```
+init vu
+
+```shell
+uv init
+```
+install dependencies need it in the project:
+
+```shell
+uv add fastapi 
+uv add python-dotenv
+uv add fastapi-users[sqlalchemy]
+uv add imagekitio
+uv add uvicorn[standard]
+uv add aiosqlite
+
 ```
 
-
+Uv add fastapi            to add fastapi dependence 
+Uv add python-dotenv
+Uv add fastapi-users[sqlalchemy] 		to handle authentication and authorization in project
+Uv add imagekitio                                   to handle images and videos 
+Uv add uvicorn[standard]                uvicorn is a web server in python that allows us to serve out fast api application 
+Uv add aiosqlite    to interact with database.
 
 
 # Usage
