@@ -7,42 +7,18 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
 [![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 
-The project title is a level 1 heading (`<h1>Project Title</h1>` or `# Project Title`).
+## 🌟 Project Overview
 
-If your project has a name, then this is where it would go.
+This project is a **production-grade web application backend** built with **FastAPI**. It demonstrates essential, real-world concepts for creating modern APIs, including:
 
-If your project does not have a name, you can use this space to explain the project. For example, code repositories of research papers usually have the paper title here.
+* **File Handling:** Securely uploading and managing images and videos.
+* **Database Integration:** Connecting to and managing data in a persistent store (using `aiosqlite`).
+* **User Authentication:** Implementing robust user login and authorization using JWT tokens via `fastapi-users[sqlalchemy]`.
+* **External Service Integration:** Utilizing **ImageKit** for powerful image and video API capabilities, including an AI-Powered Digital Asset Management (DAM) system.
 
-You can also add your branding in a cover image. It makes the README unique and gets people's attention quickly.
+This repository serves as the code base for a comprehensive tutorial on building a full-featured FastAPI application.
 
-Wait, I forgot something. You can use this README as a template from [this link](README-template.md).
-
-I usually prefer the dimensions 1280×650. It has worked well for me so far. I can also reuse it as my social preview image for the repo.
-
-Below the title, you will see some badges. These can be used to show the status of the project.
-
-The badges used here were generated with [shields.io](https://shields.io/).
-
-You can add a workflow status badge to indicate the status of your workflows in your README. This can used to answer questions like, `is the build working?` or `are the e2e tests passing?`.
-
-The badges used here are explained below:
-
-<!-- Add badges with link to Shields IO -->
-
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
-: Shows the current release version.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-: Shows the last commit time. Good indication of the project activity.
-
-![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-: Dynamic badge that shows the number of open issues in the project.
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-: Similar dynamic badge, but for pull requests.
-
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-: Shows the open source license the project uses.
+> **Note:** This project is designed for developers with basic Python and API knowledge who want to move beyond simple tutorials to build production-ready applications.
 
 
 # Table of Contents
@@ -102,7 +78,7 @@ To start running the python:
 ```shell
 uv run ./main.py
 ```
-[http://localhost:8000/docs]            to display all roots available <br>
+[http://localhost:8000/docs]            to display all available roots  <br>
 [http://localhost:8000/redoc]           same but newer <br>
 
 
