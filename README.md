@@ -63,15 +63,12 @@ This is a table of contents for your project. It helps the reader navigate throu
 
 > **Note**: For longer README files, I usually add a "Back to top" buttton as shown above. It makes it easy to navigate.
 
-When start new python project :
+This is where your installation instructions go.
 
-```curl -LsSf https://astral.sh/uv/install.sh | sh
+You can add snippets here that your readers can copy-paste with click:
 
-```
-Then restart the terminal to see uv version
-
-```Uv —version
-
+```shell
+gh repo clone navendu-pottekkat/awesome-readme
 ```
 
 
