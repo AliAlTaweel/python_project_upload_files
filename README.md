@@ -98,6 +98,13 @@ uv add imagekitio                                   to handle images and videos.
 uv add uvicorn[standard]                uvicorn is a web server in python that allows us to serve out fast api application.<br>
 uv add aiosqlite    to interact with database.<br>
 
+To start running the python:
+```shell
+uv run ./main.py
+```
+[http://localhost:8000/docs]            to display all roots available <br>
+[http://localhost:8000/redoc]           same but newer <br>
+
 
 # Usage
 [(Back to top)](#table-of-contents)
