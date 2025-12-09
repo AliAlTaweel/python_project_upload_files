@@ -91,12 +91,12 @@ uv add aiosqlite
 
 ```
 
-uv add fastapi            to add fastapi dependence.
-uv add python-dotenv
-uv add fastapi-users[sqlalchemy] 		to handle authentication and authorization in project.
-uv add imagekitio                                   to handle images and videos. 
-uv add uvicorn[standard]                uvicorn is a web server in python that allows us to serve out fast api application.
-uv add aiosqlite    to interact with database.
+uv add fastapi            to add fastapi dependence.<br>
+uv add python-dotenv<br>
+uv add fastapi-users[sqlalchemy] 		to handle authentication and authorization in project.<br>
+uv add imagekitio                                   to handle images and videos. <br>
+uv add uvicorn[standard]                uvicorn is a web server in python that allows us to serve out fast api application.<br>
+uv add aiosqlite    to interact with database.<br>
 
 
 # Usage
