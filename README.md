@@ -1,7 +1,5 @@
 
-![Awesome ReadME](https://github.com/pottekkat/awesome-readme/raw/master/header.png)
-
-# Project Title
+# Python Project - Upload files and images and save it to database.
 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
@@ -46,15 +44,6 @@ The badges used here are explained below:
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 : Shows the open source license the project uses.
 
-# Quick Start Demo
-
-![Demo Preview](https://picsum.photos/1920/1080)
-
-I believe that you should bring value to the reader as soon as possible. You should be able to get the user up and running with your project with minimal friction.
-
-If you have a quickstart guide, this is where it should be.
-
-Alternatively, you can add a demo to show what your project can do.
 
 # Table of Contents
 
@@ -74,12 +63,15 @@ This is a table of contents for your project. It helps the reader navigate throu
 
 > **Note**: For longer README files, I usually add a "Back to top" buttton as shown above. It makes it easy to navigate.
 
-This is where your installation instructions go.
+When start new python project :
 
-You can add snippets here that your readers can copy-paste with click:
+```curl -LsSf https://astral.sh/uv/install.sh | sh
 
-```shell
-gh repo clone navendu-pottekkat/awesome-readme
+```
+Then restart the terminal to see uv version
+
+```Uv —version
+
 ```
 
 
