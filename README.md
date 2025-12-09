@@ -66,6 +66,13 @@ uv add uvicorn[standard]
 uv add aiosqlite
 
 ```
+Package,Purpose
+fastapi,"High-performance, modern Python web framework."
+uvicorn[standard],ASGI web server to run the FastAPI application.
+aiosqlite,Asynchronous SQLite driver for database interaction.
+fastapi-users[sqlalchemy],"Handles robust user registration, login, and JWT-based authentication."
+imagekitio,"Integrates ImageKit for image/video upload, management, and optimization."
+python-dotenv,Loads configuration from the .env file.
 
 uv add fastapi            to add fastapi dependence.<br>
 uv add python-dotenv<br>
